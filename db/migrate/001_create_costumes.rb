@@ -10,7 +10,7 @@
 
 class Costume < ActiveRecord::Migration[5.1]
 
-def create
+def change
     create_table :costumes do |t|
       t.string :name
       t.integer :price
